@@ -1,0 +1,17 @@
+.main-section {
+  width: 64%;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2.5rem;
+
+  @media only screen and (max-width: $bp-mobile) {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  &__bio {
+    max-width: 52rem;
+    line-height: 1.5;
+  }
+}

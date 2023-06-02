@@ -1,0 +1,53 @@
+@font-face {
+  font-family: nimbus;
+  src: url(../font/NimbusSanL-Reg.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: nimbus;
+  src: url(../font/NimbusSanL-RegIta.otf);
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: nimbus;
+  src: url(../font/NimbusSanL-Bol.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: nimbus;
+  src: url(../font/NimbusSanL-BolIta.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+$bp-mobile: 40em; ///////////// 640px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+
+  font-family: nimbus;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #212121;
+
+  display: flex;
+  flex-direction: column;
+}

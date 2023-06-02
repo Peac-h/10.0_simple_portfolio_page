@@ -1,0 +1,42 @@
+.footer-section {
+  padding: 15rem 2.5rem 3rem 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 1.3rem;
+
+  &__logo-container {
+    .logo {
+      font-size: 1.9rem;
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.3em;
+      }
+    }
+  }
+
+  &__socials-container {
+    margin-right: auto;
+  }
+
+  &__socials-container,
+  .author {
+    a {
+      text-decoration: underline;
+      text-underline-offset: 0.3em;
+
+      &:link,
+      &:visited {
+        color: inherit;
+      }
+
+      &:hover,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+}

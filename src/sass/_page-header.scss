@@ -1,0 +1,36 @@
+.header-section {
+  display: flex;
+  margin-bottom: 2rem;
+
+  @media only screen and (max-width: $bp-mobile) {
+    flex-direction: column;
+  }
+
+  &__image-container {
+    flex-basis: 64%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__heading-container {
+    flex-basis: 36%;
+    padding: 2.5rem;
+    padding-bottom: 0;
+    display: flex;
+    align-items: flex-end;
+
+    h1 {
+      font-size: max(4.8rem, 5.5vw);
+      font-style: normal;
+      font-weight: 700;
+      line-height: 0.9;
+
+      span {
+        display: block;
+      }
+    }
+  }
+}
